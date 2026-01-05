@@ -23,7 +23,7 @@ Before running this project, ensure that you meet the following requirements:
 
 ### Step 1: Clone the Repository
 First, clone or download this repository to your local machine.
-Bash```
+```
 git clone https://github.com/DaveMorra/Particle-Based-Fluid-Simulation
 ```
 
@@ -31,11 +31,11 @@ git clone https://github.com/DaveMorra/Particle-Based-Fluid-Simulation
 Quickly build and run the project in any IDE that supports java (e.g., IntelliJ IDEA, Eclipse, or javac).
 Alternatively, you can compile and run it directly from the command line on any system with a built-in Java compiler.
 
-Bash```
+```
 ./SudokuSolver.java <sudokuFile.txt>
 ```
 or
-Bash```
+```
 ./SudokuGenerator.java <generatedFileName.txt>
 ```
 
