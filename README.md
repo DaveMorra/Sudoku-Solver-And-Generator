@@ -9,7 +9,7 @@
 
 ## Overview
 
-This project implements a Sudoku Solver and Generator in Java for standard 9×9 Sudoku boards. The solver reads a Sudoku puzzle from a file, validates it, and solves it using depth-first search with backtracking. The generator creates a valid Sudoku board with a specified number of known cells, ensuring the puzzle has at least one valid solution. All boards are stored and loaded using plain .txt files.
+This project implements a Sudoku Solver and Generator in Java for standard 9×9 Sudoku boards. The solver reads a Sudoku puzzle from a file, then solves it using depth-first search with backtracking. The generator creates a valid Sudoku board with a specified number of known cells, ensuring the puzzle has at least one valid solution. All boards are stored and loaded using plain .txt files.
 
 ## Requirements
 
