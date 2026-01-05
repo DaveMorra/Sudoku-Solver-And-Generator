@@ -50,8 +50,12 @@ in the directory. If no input sudoku file is passed, a default board will be use
 ```
 java SudokuGenerator.java <optionalGeneratedFileName.txt>
 ```
-After running the file. The Generated sudoku board will be printed onto the terminal, and a **GeneratedFileName.txt** will appead
+After running the file. The Generated sudoku board will be printed onto the terminal, and a **generatedFileName.txt** will appead
 in the directory. If no input sudoku file is passed, a default file name will be used.
 
 ## Demonstration
+Solved Sudoku Board using **SudokuSolver.java**:
+![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image1.png)
 
+Generated Sudoku Board using **SudokuGenerator.java**:
+![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
