@@ -55,7 +55,9 @@ in the directory. If no input sudoku file is passed, a default file name will be
 
 ## Demonstration
 Solved Sudoku Board using **SudokuSolver.java**:
+
 ![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image1.png)
 
 Generated Sudoku Board using **SudokuGenerator.java**:
+
 ![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
