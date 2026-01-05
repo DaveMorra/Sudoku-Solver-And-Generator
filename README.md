@@ -57,7 +57,7 @@ in the directory. If no input sudoku file is passed, a default file name will be
 ![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
 
 ### Sudoku Board Text File
-I handfull of board postions have been soved and generated under **/SudokuSolverTest** and **/SudokuGeneratorTest**.
+A handfull of board postions have been soved and generated under **/SudokuSolverTest** and **/SudokuGeneratorTest**.
 All baords are stores as a .txt file, and they compose of a gid of numbers in a 9x9 square. For undiscovered squares, a hyphen is used.
 Below is an example of a board stored as text file:
 
