@@ -37,12 +37,12 @@ cd Sudoku-Solver-And-Generator/src
 Quickly build and run the project in any IDE that supports java (e.g. IntelliJ IDEA, Eclipse).
 Alternatively, you can compile and run it directly from the command line on any system with a built-in Java compiler.
 
-# Compile sudoku board model:
+### Compile sudoku board model:
 ```
 javac models/SudokuBoard.java
 ```
 
-# Run the Sudoku Solver
+### Run the Sudoku Solver
 ```
 java SudokuSolver.java <optionalSudokuFile.txt>
 ```
