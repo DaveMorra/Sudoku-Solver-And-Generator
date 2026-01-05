@@ -30,7 +30,7 @@ git clone https://github.com/DaveMorra/Sudoku-Solver-And-Generator
 ```
 Then, navigate to the source directory:
 ```
-cd src
+cd Sudoku-Solver-And-Generator/src
 ```
 
 ### Step 2: Compile and Run
