@@ -43,15 +43,19 @@ javac models/SudokuBoard.java
 ```
 java SudokuSolver.java <optionalSudokuFile.txt>
 ```
-After running the file. The solved sudoku board will be printed onto the terminal, and a **sudokuFile_solved.txt** will appead
+After running **SudokuSolver.java**, the solved sudoku board will be printed onto the terminal as been below, and a **sudokuFile_solved.txt** will appead
 in the directory. If no input sudoku file is passed, a default board will be used.
+
+![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image1.png)
 
 ### Run the Sudoku Generator
 ```
 java SudokuGenerator.java <optionalGeneratedFileName.txt>
 ```
-After running the file. The Generated sudoku board will be printed onto the terminal, and a **generatedFileName.txt** will appead
+After running **SudokuGenerator.java**, the generated sudoku board will be printed onto the terminal, and a **generatedFileName.txt** will appead
 in the directory. If no input sudoku file is passed, a default file name will be used.
+
+![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
 
 ## Demonstration
 Solved Sudoku Board using **SudokuSolver.java**:
