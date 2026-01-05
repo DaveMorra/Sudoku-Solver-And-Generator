@@ -5,7 +5,6 @@
 - [Overview](#overview)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Demonstration](#Demonstration)
 
 ## Overview
 
@@ -34,7 +33,7 @@ cd Sudoku-Solver-And-Generator/src
 Quickly build and run the project in any IDE that supports java (e.g. IntelliJ IDEA, Eclipse).
 Alternatively, you can compile and run it directly from the command line on any system with a built-in Java compiler.
 
-### Compile sudoku board model:
+### Compile Sudoku Board Model:
 ```
 javac models/SudokuBoard.java
 ```
@@ -57,11 +56,9 @@ in the directory. If no input sudoku file is passed, a default file name will be
 
 ![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
 
-## Demonstration
-Solved Sudoku Board using **SudokuSolver.java**:
+### Sudoku Board Text File
+I handfull of board postions have been soved and generated under **/SudokuSolverTest** and **/SudokuGeneratorTest**.
+All baords are stores as a .txt file, and they compose of a gid of numbers in a 9x9 square. For undiscovered squares, a hyphen is used.
+Below is an example of a board stored as text file:
 
-![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image1.png)
-
-Generated Sudoku Board using **SudokuGenerator.java**:
-
-![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image2.png)
+![alt text](https://github.com/DaveMorra/Sudoku-Solver-And-Generator/blob/main/images/image3.png)
