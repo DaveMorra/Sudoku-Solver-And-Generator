@@ -9,7 +9,10 @@
 
 ## Overview
 
-This project is a Java particle-based fluid simulation that uses simple physics rules to create the appearance of fluid-like motion. Each particle is affected by forces such as gravity, collisions with walls, and interactions with nearby particles. The simulation runs in real time with rendering in a Swing window, providing smooth and visually appealing motion. Users can interact with the system using mouse input to attract or repel particles dynamically.
+This project implements a Sudoku Solver and Generator in Java for standard 9×9 Sudoku boards.
+-The solver reads a Sudoku puzzle from a file, validates it, and solves it using depth-first search with backtracking.
+-The generator creates a valid Sudoku board with a specified number of known cells, ensuring the puzzle has at least one valid solution.
+All boards are stored and loaded using plain .txt files.
 
 ## Requirements
 
@@ -17,26 +20,29 @@ Before running this project, ensure that you meet the following requirements:
 
 ### Software Dependencies
 1. **Java 19.0.0 (or later)**: Be sure to use Java 19 or newer.
-2. **Java Swing Libary**: This libary included need features like JFrame, JPanel, and SwingUtilities.
 
 ## Setup
 
 ### Step 1: Clone the Repository
-First, clone or download this repository to your local machine.
+First, clone or download this repository to your local machine:
 ```
 git clone https://github.com/DaveMorra/Particle-Based-Fluid-Simulation
 ```
+Then, navigate to the source directory:
+```
+cd src
+```
 
 ### Step 2: Compile and Run
-Quickly build and run the project in any IDE that supports java (e.g., IntelliJ IDEA, Eclipse, or javac).
+Quickly build and run the project in any IDE that supports java (e.g. IntelliJ IDEA, Eclipse).
 Alternatively, you can compile and run it directly from the command line on any system with a built-in Java compiler.
 
 ```
-./SudokuSolver.java <sudokuFile.txt>
+java SudokuSolver.java <sudokuFile.txt>
 ```
 or
 ```
-./SudokuGenerator.java <generatedFileName.txt>
+java SudokuGenerator.java <generatedFileName.txt>
 ```
 
 ## Technical Overview
