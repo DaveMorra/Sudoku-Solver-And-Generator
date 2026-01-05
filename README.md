@@ -26,7 +26,7 @@ Before running this project, ensure that you meet the following requirements:
 ### Step 1: Clone the Repository
 First, clone or download this repository to your local machine:
 ```
-git clone https://github.com/DaveMorra/Particle-Based-Fluid-Simulation
+git clone [https://github.com/DaveMorra/Particle-Based-Fluid-Simulation](https://github.com/DaveMorra/Sudoku-Solver-And-Generator)
 ```
 Then, navigate to the source directory:
 ```
