@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Technical Overview](#technical-overview)
+- [Demonstration](#Demonstration)
 
 ## Overview
 
@@ -46,19 +46,15 @@ javac models/SudokuBoard.java
 ```
 java SudokuSolver.java <optionalSudokuFile.txt>
 ```
-After running the file. The solved sudoku board will be print onto the terminal, and a **<sudokuFile>_solved.txt** will appead
+After running the file. The solved sudoku board will be printed onto the terminal, and a **sudokuFile_solved.txt** will appead
 in the directory. If no input sudoku file is passed, a default board will be used.
 
-# Run the Sudoku Generator
+### Run the Sudoku Generator
 ```
 java SudokuGenerator.java <optionalGeneratedFileName.txt>
 ```
+After running the file. The Generated sudoku board will be printed onto the terminal, and a **GeneratedFileName.txt** will appead
+in the directory. If no input sudoku file is passed, a default file name will be used.
 
-## Technical Overview
-The simulation uses a particle-based physics engine to model fluid-like behavior by updating forces, velocities, and positions for each particle. Particles are organized in a spatial grid to efficiently calculate interactions only with nearby neighbors. Real-time rendering is handled with Swing, and users can interact with the simulation using mouse events to attract or repel particles. Below are three images that demonstrate the simulation in action, showing particle movement, fluid-like interactions, and user-driven effects through mouse input.
-
- - Rendering: Swing (JFrame + JPanel)
- - Simulation Loop: Updates particles in real time at (Default: 120FPS)
- - Physics: Position, velocity, and force calculations
- - Interaction: UserMouseEvent to pass mouse input into the environment
+## Demonstration
 
